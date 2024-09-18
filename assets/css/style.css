@@ -9,3 +9,256 @@ html {
 body {
     font-family: "Poppins";
 }
+
+/* common */
+
+.container {
+    margin: 0 auto;
+    width: 1169px;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+img {
+    object-fit: cover;
+}
+
+.heading {
+    color: #000958;
+    font-family: Sora;
+    font-weight: 700;
+    font-size: 5.2rem;
+    line-height: 62px;
+}
+
+.desc {
+    margin-top: 24px;
+    color: #656689;
+    font-size: 1.6rem;
+    line-height: 30px;
+}
+
+.btn {
+    width: 214px;
+    height: 56px;
+    border-radius: 31px;
+    border: 1px solid #ff5b2e;
+    opacity: 0.6;
+    box-shadow: 0px 13px 26px -8px rgba(255, 91, 46, 0.42);
+}
+
+/* header */
+.header {
+    margin-top: 26px;
+}
+
+.header-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav {
+    display: flex;
+    gap: 36px;
+}
+
+.nav-item {
+    color: #5e6085;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1;
+    padding: 4px 8px;
+    transition: color 0.2s ease;
+}
+
+.nav-item:hover {
+    color: #000958;
+    font-weight: 600;
+}
+
+.header-btn {
+    color: #000958;
+    font-size: 1.4rem;
+    font-weight: 600;
+    width: 117px;
+    height: 50px;
+    opacity: 1;
+    line-height: 1;
+    padding: 18px 31px;
+    border: 0.5px solid #000958;
+    box-shadow: none;
+    border-radius: 25px;
+    transition: opacity ease 0.2s;
+}
+
+.btn:hover {
+    opacity: 0.7;
+}
+
+.header-bottom {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.header-bottom__media {
+    position: relative;
+    width: 56%;
+}
+
+.media-img {
+    border-radius: 16px;
+}
+
+.media-img:first-child {
+    width: 388px;
+    height: 488px;
+    border: 3px solid #fff;
+}
+
+.media-img:nth-child(2) {
+    position: absolute;
+    left: 365px;
+    top: 302px;
+    width: 166px;
+    height: 244px;
+}
+
+.union {
+    position: absolute;
+    z-index: -1;
+}
+
+.union:nth-child(3) {
+    left: -58px;
+    top: 247.5px;
+}
+
+.union:nth-child(4) {
+    top: 16.66px;
+    left: 377.15px;
+}
+
+.rectangle {
+    position: absolute;
+    top: 426px;
+    left: 129px;
+    width: 250px;
+    height: 156px;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: -17px 14px 68px -4px rgba(207, 174, 132, 0.25);
+}
+
+.ractangle-item {
+    display: flex;
+    position: relative;
+    gap: 8.62px;
+    padding: 20px 17px;
+}
+
+.ractangle-item::before {
+    content: "";
+    position: absolute;
+    width: 118px;
+    height: 4px;
+    border-radius: 10px;
+    opacity: 0.08;
+    background: #000958;
+    top: 42px;
+    left: 67px;
+}
+
+.ractangle-item::after {
+    content: "";
+    position: absolute;
+    width: 39px;
+    height: 4px;
+    border-radius: 10px;
+    opacity: 0.08;
+    background: #000958;
+    top: 52px;
+    left: 67px;
+}
+
+.line {
+    margin: 0 auto;
+    width: 222px;
+    height: 2px;
+    background: #f2f2f2;
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.title-ractangle {
+    color: #181e52;
+    font-family: Sora;
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 1;
+}
+
+.header-bottom__content {
+    margin-top: 71px;
+    width: 44%;
+}
+
+.header-heading {
+    font-size: 6.6rem;
+    font-weight: 800;
+    line-height: 76px;
+}
+
+.header-desc {
+    width: 391px;
+}
+
+.content-action {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin-top: 38px;
+}
+
+.content-btn {
+    position: relative;
+    width: 189px;
+    height: 60px;
+    background: #ff5b2e;
+    opacity: 1;
+    color: #fff;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 16px;
+    padding: 20px 30px;
+    padding-right: 60px;
+}
+
+.icon-btn {
+    position: absolute;
+    top: 11px;
+    left: 129px;
+}
+
+.desc-btn {
+    color: #000958;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    text-decoration-line: underline;
+}
