@@ -569,8 +569,20 @@ input[type="checkbox"]:not(:checked) + label::after {
 }
 
 .sevice:hover::after {
-    width: 95px;
     z-index: 1;
+}
+
+.active-sevice::after {
+    position: absolute;
+    left: 6px;
+    bottom: -11px;
+    content: "";
+    width: 95px;
+    height: 2px;
+    border-radius: 3px;
+    background: #ff5b2e;
+    z-index: 1;
+    transition: all 0.25s linear;
 }
 
 .sevice-img-2,
@@ -593,4 +605,24 @@ input[type="checkbox"]:not(:checked) + label::after {
     font-weight: 600;
     line-height: 18px;
     white-space: nowrap;
+}
+
+.features__content-desc {
+    width: 391px;
+    color: #656689;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 171.429% */
+    margin-top: 36px;
+    margin-bottom: 32px;
+}
+
+.features-link {
+    color: #ff5d31;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px; /* 100% */
+    border-bottom: 1.5px solid #ff5d31;
 }
