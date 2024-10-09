@@ -8,6 +8,10 @@
         <link rel="stylesheet" href="./assets/font/stylesheet.css" />
         <link rel="stylesheet" href="./assets/css/style.css" />
         <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        />
+        <link
             rel="apple-touch-icon"
             sizes="57x57"
             href="./assets/favicon/apple-icon-57x57.png"
@@ -85,7 +89,7 @@
         <meta name="theme-color" content="#ffffff" />
     </head>
     <body>
-        <header class="header">
+        <header class="header fixed">
             <div class="container">
                 <div class="header-top">
                     <div class="logo">
@@ -108,74 +112,339 @@
                         <button class="btn header-btn">Sign up</button>
                     </div>
                 </div>
+            </div>
+        </header>
 
-                <div class="header-bottom">
-                    <div class="header-bottom__media">
-                        <img
-                            src="./assets/img/meida-1.jpg"
-                            alt=""
-                            class="media-img"
-                        />
-                        <img
-                            src="./assets/img/meida-2.jpg"
-                            alt=""
-                            class="media-img"
-                        />
-                        <img
-                            src="./assets/img/Union.svg"
-                            alt=""
-                            class="union"
-                        />
-                        <img
-                            src="./assets/img/Union2.svg"
-                            alt=""
-                            class="union"
-                        />
-                        <div class="rectangle">
-                            <div class="ractangle-item">
+        <main class="main">
+            <section class="hero">
+                <div class="container">
+                    <div class="hero-inner">
+                        <div class="hero__media">
+                            <div class="hero__img-wrap">
                                 <img
-                                    src="./assets/img/avatar-1.jpg"
+                                    src="./assets/img/hero-media-1.png"
                                     alt=""
-                                    class="avatar"
+                                    class="hero-img-1"
                                 />
-                                <p class="title-ractangle">Pet Health</p>
+                                <img
+                                    src="./assets/img/decor-1.svg"
+                                    alt=""
+                                    class="decor-1"
+                                />
+                                <img
+                                    src="./assets/img/decor-2.svg"
+                                    alt=""
+                                    class="decor-2"
+                                />
+                                <div class="hero-img">
+                                    <img
+                                        src="./assets/img/hero-media-2.png"
+                                        alt=""
+                                        class="hero-img-2"
+                                    />
+                                </div>
                             </div>
-                            <div class="line"></div>
-                            <div class="ractangle-item">
-                                <img
-                                    src="./assets/img/avatar-2.jpg"
-                                    alt=""
-                                    class="avatar"
-                                />
-                                <p class="title-ractangle">Pet care</p>
+
+                            <div class="rectangle">
+                                <div class="ractangle-item">
+                                    <img
+                                        src="./assets/img/avatar-1.png"
+                                        alt=""
+                                        class="avatar avatar-1"
+                                    />
+                                    <p class="title-ractangle">Pet Health</p>
+                                </div>
+                                <div class="line"></div>
+                                <div class="ractangle-item">
+                                    <img
+                                        src="./assets/img/avatar-2.png"
+                                        alt=""
+                                        class="avatar avatar-2"
+                                    />
+                                    <p class="title-ractangle">Pet care</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
 
-                    <div class="header-bottom__content">
-                        <h1 class="heading header-heading">
-                            Established & Trusted Pet Care Service
-                        </h1>
-                        <p class="desc header-desc">
-                            Discover a wide variety of Pawsitive services to
-                            choose from, including daycare, private walks,
-                            office duty and spa.
-                        </p>
-                        <div class="content-action">
-                            <button class="btn content-btn">
-                                Book a Meet
-                                <img
-                                    src="./assets/img/icon-btn.svg"
-                                    alt=""
-                                    class="icon-btn"
-                                />
-                            </button>
+                        <div class="hero__content">
+                            <h1 class="heading hero-heading">
+                                Established & Trusted Pet Care Service
+                            </h1>
+                            <p class="desc hero-desc">
+                                Discover a wide variety of Pawsitive services to
+                                choose from, including daycare, private walks,
+                                office duty and spa.
+                            </p>
+                            <div class="content-action">
+                                <button class="btn content-btn">
+                                    Book a Meet
+                                    <img
+                                        src="./assets/img/icon-btn.svg"
+                                        alt=""
+                                        class="icon-btn"
+                                    />
+                                </button>
 
-                            <a href="" class="desc-btn">Schedule a Call</a>
+                                <a href="" class="desc-btn">Schedule a Call</a>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </header>
+            </section>
+
+            <section class="about">
+                <div class="container">
+                    <div class="about-inner">
+                        <div class="about__content">
+                            <p class="content-title">// About //</p>
+                            <h2 class="heading about-heading">
+                                Best Agency For Your Pet.
+                            </h2>
+                            <p class="desc about-desc">
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipisicing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua.
+                            </p>
+                            <form action="" class="about-form">
+                                <input
+                                    type="checkbox"
+                                    name=""
+                                    id="chk1"
+                                    hidden
+                                    checked
+                                />
+                                <label for="chk1">Certified Groomer</label>
+                                <input
+                                    type="checkbox"
+                                    name=""
+                                    id="chk2"
+                                    checked
+                                    hidden
+                                />
+                                <label for="chk2">Animal Lover</label>
+                                <input
+                                    type="checkbox"
+                                    name=""
+                                    id="chk3"
+                                    checked
+                                    hidden
+                                />
+                                <label for="chk3">14+ Years Experience</label>
+                                <input
+                                    type="checkbox"
+                                    name=""
+                                    id="chk4"
+                                    checked
+                                    hidden
+                                />
+                                <label for="chk4">Pet Parent Of 3 Dogs</label>
+                            </form>
+                        </div>
+
+                        <div class="about__media">
+                            <img
+                                src="./assets/img/about-media.svg"
+                                alt=""
+                                class="about__img"
+                            />
+                            <div class="about__rectangle">
+                                <p class="number">20+</p>
+                                <p class="rectangle-desc">Years Experience</p>
+                            </div>
+                            <img
+                                src="./assets/img/about-icon.svg"
+                                alt=""
+                                class="about-icon"
+                            />
+                            <img
+                                src="./assets/img/about-decor.svg"
+                                alt=""
+                                class="about-decor"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="features">
+                <div class="container">
+                    <div class="features-inner">
+                        <div class="features__content">
+                            <h2 class="heading features-heading">
+                                Taking A Vacation? So Is Your Pet.
+                            </h2>
+                            <p class="desc features-desc">
+                                We offer long-term and short-term boarding.
+                                Every dog has its own private, spacious room and
+                                daily individual time in our large play yard.
+                            </p>
+
+                            <div class="features__content-service">
+                                <div class="sevice">
+                                    <!-- <img src="./assets/img/sevice-img-1.svg" alt="" class="sevice-img sevice-img-1"> -->
+
+                                    <svg
+                                        class="sevice-img sevice-img-1"
+                                        width="35"
+                                        height="35"
+                                        viewBox="0 0 35 35"
+                                        fill="none"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <g filter="url(#filter0_d_11_1141)">
+                                            <path
+                                                fill-rule="evenodd"
+                                                clip-rule="evenodd"
+                                                d="M8.2318 12.5223C7.97335 12.7193 7.92347 13.0884 8.12038 13.3469C8.31729 13.6054 8.68642 13.6553 8.94487 13.4584L9.40679 13.1064L10.1503 23.5114C10.1723 23.8192 10.4285 24.0578 10.7372 24.0578H23.2477C23.5563 24.0578 23.8125 23.8192 23.8345 23.5114L24.5842 13.0204L25.1716 13.461C25.4315 13.656 25.8002 13.6033 25.9952 13.3434C26.1901 13.0834 26.1375 12.7146 25.8775 12.5196L17.3427 6.11768C17.1322 5.95978 16.8425 5.96088 16.6332 6.12036L8.2318 12.5223Z"
+                                                fill="url(#paint0_linear_11_1141)"
+                                            />
+                                            <path
+                                                fill-rule="evenodd"
+                                                clip-rule="evenodd"
+                                                d="M17.5876 11.0899C17.5876 11.3823 17.3506 11.6193 17.0582 11.6193C16.7659 11.6193 16.5289 11.3823 16.5289 11.0899C16.5289 10.7975 16.7659 10.5605 17.0582 10.5605C17.3506 10.5605 17.5876 10.7975 17.5876 11.0899ZM19.4402 14.2658C19.4402 15.1429 18.3144 15.8539 16.9257 15.8539C15.537 15.8539 14.4113 15.1429 14.4113 14.2658C14.4113 13.3887 15.537 12.6777 16.9257 12.6777C18.3144 12.6777 19.4402 13.3887 19.4402 14.2658ZM19.1755 12.1486C19.4679 12.1486 19.7049 11.9116 19.7049 11.6192C19.7049 11.3268 19.4679 11.0898 19.1755 11.0898C18.8831 11.0898 18.6461 11.3268 18.6461 11.6192C18.6461 11.9116 18.8831 12.1486 19.1755 12.1486ZM15.47 11.6192C15.47 11.9116 15.233 12.1486 14.9406 12.1486C14.6483 12.1486 14.4113 11.9116 14.4113 11.6192C14.4113 11.3268 14.6483 11.0898 14.9406 11.0898C15.233 11.0898 15.47 11.3268 15.47 11.6192ZM17.058 16.6474C15.0115 16.6474 13.3525 18.3064 13.3525 20.3529V24.0584H20.7635V20.3529C20.7635 18.3064 19.1045 16.6474 17.058 16.6474Z"
+                                                fill="url(#paint1_linear_11_1141)"
+                                            />
+                                        </g>
+                                        <defs>
+                                            <filter
+                                                id="filter0_d_11_1141"
+                                                x="0"
+                                                y="0"
+                                                width="34.1128"
+                                                height="34.0586"
+                                                filterUnits="userSpaceOnUse"
+                                                color-interpolation-filters="sRGB"
+                                            >
+                                                <feFlood
+                                                    flood-opacity="0"
+                                                    result="BackgroundImageFix"
+                                                />
+                                                <feColorMatrix
+                                                    in="SourceAlpha"
+                                                    type="matrix"
+                                                    values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                                                    result="hardAlpha"
+                                                />
+                                                <feOffset dy="2" />
+                                                <feGaussianBlur
+                                                    stdDeviation="4"
+                                                />
+                                                <feComposite
+                                                    in2="hardAlpha"
+                                                    operator="out"
+                                                />
+                                                <feColorMatrix
+                                                    type="matrix"
+                                                    values="0 0 0 0 0.290641 0 0 0 0 0.675565 0 0 0 0 1 0 0 0 0.19 0"
+                                                />
+                                                <feBlend
+                                                    mode="normal"
+                                                    in2="BackgroundImageFix"
+                                                    result="effect1_dropShadow_11_1141"
+                                                />
+                                                <feBlend
+                                                    mode="normal"
+                                                    in="SourceGraphic"
+                                                    in2="effect1_dropShadow_11_1141"
+                                                    result="shape"
+                                                />
+                                            </filter>
+                                            <linearGradient
+                                                id="paint0_linear_11_1141"
+                                                x1="17.0564"
+                                                y1="6"
+                                                x2="17.0564"
+                                                y2="24.0578"
+                                                gradientUnits="userSpaceOnUse"
+                                            >
+                                                <stop stop-color="#4C9EE2" />
+                                                <stop
+                                                    offset="1"
+                                                    stop-color="#73BFFF"
+                                                />
+                                            </linearGradient>
+                                            <linearGradient
+                                                id="paint1_linear_11_1141"
+                                                x1="17.058"
+                                                y1="10.5605"
+                                                x2="17.058"
+                                                y2="24.0584"
+                                                gradientUnits="userSpaceOnUse"
+                                            >
+                                                <stop stop-color="white" />
+                                                <stop
+                                                    offset="1"
+                                                    stop-color="white"
+                                                    stop-opacity="0.59"
+                                                />
+                                            </linearGradient>
+                                        </defs>
+                                    </svg>
+
+                                    <h3 class="heading-sevice">Pet Boarding</h3>
+                                </div>
+                                <div class="sevice">
+                                    <img
+                                        src="./assets/img/sevice-img-2.svg"
+                                        alt=""
+                                        class="sevice-img sevice-img-2"
+                                    />
+                                    <h3 class="heading-sevice">Pet Daycare</h3>
+                                </div>
+                                <div class="sevice">
+                                    <img
+                                        src="./assets/img/sevice-img-3.svg"
+                                        alt=""
+                                        class="sevice-img sevice-img-3"
+                                    />
+                                    <h3 class="heading-sevice">
+                                        Pet Transport
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="features__media">
+                            <img
+                                src="./assets/img/features-img.png"
+                                alt=""
+                                class="features__img"
+                            />
+
+                            <img
+                                src="./assets/img/features-decor-1.svg"
+                                alt=""
+                                class="features-decor features-decor-1"
+                            />
+                            <img
+                                src="./assets/img/features-decor-2.svg"
+                                alt=""
+                                class="features-decor features-decor-2"
+                            />
+                            <img
+                                src="./assets/img/features-decor-3.svg"
+                                alt=""
+                                class="features-decor features-decor-3"
+                            />
+                            <img
+                                src="./assets/img/features-decor-4.svg"
+                                alt=""
+                                class="features-decor features-decor-4"
+                            />
+                            <img
+                                src="./assets/img/features-decor-5.svg"
+                                alt=""
+                                class="features-decor features-decor-5"
+                            />
+                            <img
+                                src="./assets/img/features-decor-6.svg"
+                                alt=""
+                                class="features-decor features-decor-6"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
     </body>
 </html>
