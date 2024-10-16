@@ -33,6 +33,7 @@ img {
 }
 
 .heading {
+    text-align: center;
     color: #000958;
     font-family: Sora;
     font-weight: 700;
@@ -46,16 +47,31 @@ img {
     line-height: 30px;
 }
 
+.desc-section {
+    color: #5e6085;
+    text-align: center;
+    margin-bottom: 15px;
+    font-family: Sora;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 16px; /* 100% */
+}
+
 .btn {
     display: block;
     width: 214px;
     height: 56px;
     padding: 20px 40px;
     border-radius: 31px;
+    font-size: 1.6rem;
+    line-height: 16px;
     border: 1px solid #ff5b2e;
     opacity: 0.6;
     box-shadow: 0px 13px 26px -8px rgba(255, 91, 46, 0.42);
     white-space: nowrap;
+    margin: auto;
+    color: #ff5b2e;
+    text-align: center;
 }
 
 .fixed {
@@ -66,7 +82,8 @@ img {
 
 /* header */
 .header {
-    padding: 26px;
+    padding-top: 26px;
+    padding-bottom: 18px;
     background: #fffaf5;
 }
 
@@ -645,14 +662,6 @@ input[type="checkbox"]:not(:checked) + label::after {
     align-items: center;
 }
 
-.desc-sevices {
-    color: #5e6085;
-    font-family: Sora;
-    font-size: 1.6rem;
-    font-weight: 600;
-    line-height: 16px; /* 100% */
-}
-
 .bottom-sevices {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -691,14 +700,8 @@ input[type="checkbox"]:not(:checked) + label::after {
 }
 
 .sevices-btn {
-    color: #ff5b2e;
-    font-size: 1.6rem;
     font-weight: 500;
-    line-height: 16px; /* 100% */
-    text-align: center;
     margin-top: 45px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .card {
@@ -760,4 +763,78 @@ input[type="checkbox"]:not(:checked) + label::after {
     vertical-align: middle;
 }
 
+.team {
+    margin-top: 130px;
+}
+
+.team-list {
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+    gap: 55px;
+}
+
+.team-item {
+    position: relative;
+    width: 234px;
+    height: 290px;
+}
+
+.thumb-team {
+    position: relative;
+    width: 234px;
+    height: 290px;
+    border-radius: 129.5px;
+    z-index: 1;
+}
+
+.bg-img {
+    position: absolute;
+    top: 19px;
+    width: 234px;
+    height: 266px;
+    border-radius: 129.5px;
+    background: linear-gradient(180deg, #90ccff 0%, #59a8eb 95.96%);
+}
+
+.decor-1 {
+    position: absolute;
+    top: 176px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.team-item:nth-child(2) .decor-1 {
+    top: 19px;
+}
+
+.team-item:last-child .decor-1 {
+    position: absolute;
+    top: 19px;
+    left: 50%;
+    transform: translateX(-50%) rotate(180deg);
+}
+
+.position {
+    margin-top: 29px;
+    color: #656689;
+    text-align: center;
+    font-size: 1.4rem;
+    line-height: 14px;
+}
+
+.item-name {
+    margin-top: 14px;
+    color: #000958;
+    text-align: center;
+    font-family: Sora;
+    font-size: 2.2rem;
+    font-weight: 600;
+    line-height: 22px;
+}
+
+.team-btn {
+    width: 193px;
+    margin-top: 127px;
+}
 
