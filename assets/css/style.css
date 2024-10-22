@@ -69,7 +69,9 @@ img {
     opacity: 0.6;
     box-shadow: 0px 13px 26px -8px rgba(255, 91, 46, 0.42);
     white-space: nowrap;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 500;
     color: #ff5b2e;
     text-align: center;
 }
@@ -346,7 +348,7 @@ img {
     margin-left: 37px;
 }
 
-label {
+.label-about {
     position: relative;
     color: #48496a;
     font-size: 1.8rem;
@@ -356,7 +358,7 @@ label {
     white-space: nowrap;
 }
 
-label::before {
+.label-about::before {
     content: " ";
     display: inline-block;
     width: 24px;
@@ -368,7 +370,7 @@ label::before {
     border-radius: 5px;
 }
 
-label::after {
+.label-about::after {
     content: " ";
     display: block;
     width: 12px;
@@ -790,7 +792,9 @@ input[type="checkbox"]:not(:checked) + label::after {
 
 .bg-img {
     position: absolute;
-    top: 19px;
+    top: 24px;
+    left: 50%;
+    transform: translateX(-50%);
     width: 234px;
     height: 266px;
     border-radius: 129.5px;
@@ -838,3 +842,153 @@ input[type="checkbox"]:not(:checked) + label::after {
     margin-top: 127px;
 }
 
+.pricing {
+    margin-top: 130px;
+    background: #fff6ed;
+}
+
+.pricing-inner {
+    padding: 86px;
+}
+
+.sub-heading {
+    width: 709px;
+    color: #656689;
+    text-align: center;
+    font-size: 1.6rem;
+    line-height: 30px;
+    margin: auto;
+    margin-top: 24px;
+}
+
+.select__date {
+    position: relative;
+    display: flex;
+    width: 276px;
+    height: 56px;
+    border-radius: 31px;
+    outline: 1px solid #ff5b2e;
+    opacity: 1;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 38px;
+}
+
+.btn-date {
+    opacity: 1;
+    border: none;
+    box-shadow: none;
+}
+
+.btn-date:hover {
+    background-color: #ff5b2e;
+    color: #fff;
+    opacity: 1;
+}
+
+.active-pricing {
+    background: #ff5b2e;
+}
+
+.decor-pricing {
+    width: 86.614px;
+    height: 36.801px;
+    position: absolute;
+    top: -10px;
+    left: 300px;
+}
+
+.pricing__card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 56px;
+}
+
+.pricing__card-item {
+    width: 302px;
+    height: 465px;
+    border-radius: 20px;
+    background: #fff;
+    padding: 30px 28px;
+}
+
+.pricing-type {
+    color: #ff5b2e;
+    font-size: 1.2rem;
+    line-height: 12px;
+}
+
+.level-care {
+    color: #3f4065;
+    font-family: Sora;
+    font-size: 1.8rem;
+    margin-top: 8px;
+    font-weight: 600;
+    line-height: 18px;
+}
+
+.price {
+    margin-top: 24px;
+    color: #000958;
+    font-family: Sora;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 34px;
+}
+
+.purchase {
+    width: 246px;
+    border-radius: 39px;
+    border: 1px solid rgba(255, 91, 46, 0.6);
+    padding: 14px 65px;
+    height: 44px;
+    margin-top: 22px;
+    opacity: 1;
+    box-shadow: none;
+}
+
+.purchase:hover {
+    border-radius: 39px;
+    opacity: 1;
+    background: #ff5b2e;
+    color: #fff;
+}
+
+.purchase-active {
+    background: #ff5b2e;
+    color: #fff;
+}
+
+.list__sevices-care {
+    margin-top: 24px;
+}
+
+.item__sevices-care {
+    position: relative;
+    color: #656689;
+    font-size: 1.4rem;
+    line-height: 14px;
+    margin-left: 19px;
+}
+
+.item__sevices-care::before {
+    display: block;
+    content: "";
+    position: absolute;
+    top: 3px;
+    left: -17px;
+    width: 7px;
+    height: 4px;
+    border-bottom: 1px solid #FF5B2E;
+    border-left: 1px solid #FF5B2E;
+    rotate: -45deg;
+}
+
+.item__sevices-care-disable + .item__sevices-care::before {
+    opacity: 0.4;
+}
+
+.item__sevices-care:not(:first-child) {
+    margin-top: 18px;
+}
