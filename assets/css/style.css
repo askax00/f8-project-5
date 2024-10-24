@@ -1188,3 +1188,120 @@ input[type="checkbox"]:not(:checked) + label::after {
     font-size: 1.4rem;
     line-height: 24px; /* 171.429% */
 }
+
+.footer {
+    margin-top: 131px;
+    background: linear-gradient(#fff6ed, #fff6ed) left / 43%no-repeat,
+        linear-gradient(#fffaf5, #fffaf5) right / 100% no-repeat;
+}
+
+.footer-inner {
+    display: flex;
+    align-items: center;
+    padding-top: 52px;
+}
+
+.footer-left {
+    width: 43%;
+}
+
+.footer__form {
+    position: relative;
+    margin-top: 40px;
+    width: 268px;
+}
+
+.footer__form-email {
+    height: 46px;
+    width: 268px;
+    border-radius: 23px;
+    border: 1px solid rgba(255, 91, 46, 0.25);
+    opacity: 0.6;
+    background: #fff;
+    padding: 16px 22px;
+}
+
+.footer__form-email::placeholder {
+    color: #656689;
+    font-size: 1.2rem;
+    font-weight: 300;
+    line-height: 14px; /* 116.667% */
+}
+
+.footer__form-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 45px;
+    height: 46px;
+    rotate: 180deg;
+    border-radius: 999px;
+    border: 1px solid #ff5b2e;
+    background: #ff5b2e;
+    color: #fff;
+}
+
+.follow {
+    margin-top: 68px;
+    color: #000958;
+    font-family: Sora;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 20px; /* 111.111% */
+}
+
+.socail {
+    display: flex;
+    align-items: center;
+    width: 176px;
+    margin-top: 16px;
+    gap: 16px;
+}
+
+.socail-icon {
+    width: 32px;
+    height: 32px;
+    border-radius: 999px;
+    background-color: #fff;
+    padding: 9px;
+}
+
+.footer-right {
+    width: 57px;
+}
+
+.footer-right {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 137px;
+    row-gap: 58px;
+    margin-left: 129px;
+}
+.item-contact:first-child a {
+    color: #000958;
+    font-family: Sora;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 20px; /* 111.111% */
+}
+
+.item-contact:nth-child(2) {
+    margin-top: 14px;
+}
+
+.item-contact a {
+    white-space: nowrap;
+    color: #656689;
+    font-size: 1.4rem;
+    line-height: 2;
+}
+
+.coppy-right {
+    text-align: center;
+    padding-top: 52px;
+    padding-bottom: 48px;
+    color: #656689;
+    font-size: 1.2rem;
+    line-height: 14px;
+    opacity: 0.5;
+}
