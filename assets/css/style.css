@@ -33,7 +33,6 @@ img {
 }
 
 .heading {
-    text-align: center;
     color: #000958;
     font-family: Sora;
     font-weight: 700;
@@ -769,6 +768,10 @@ input[type="checkbox"]:not(:checked) + label::after {
     margin-top: 130px;
 }
 
+.team-heading {
+    text-align: center;
+}
+
 .team-list {
     display: flex;
     justify-content: center;
@@ -845,6 +848,10 @@ input[type="checkbox"]:not(:checked) + label::after {
 .pricing {
     margin-top: 130px;
     background: #fff6ed;
+}
+
+.pricing-heading {
+    text-align: center;
 }
 
 .pricing-inner {
